@@ -1,0 +1,8 @@
+<div class="list">
+    <h3>{{title}}</h3>
+    <ul>
+        <li *ngFor="let joke of jokes">
+            <app-joke-tile [joke]="joke" (togglingFavorite)="toggleFavorite($event)"></app-joke-tile>
+        </li>
+    </ul>
+</div>
