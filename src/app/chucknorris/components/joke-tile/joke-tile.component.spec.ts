@@ -9,8 +9,7 @@ describe('JokeTileComponent', () => {
     beforeEach(async(() => {
         TestBed.configureTestingModule({
             declarations: [JokeTileComponent]
-        })
-            .compileComponents();
+        }).compileComponents();
     }));
 
     beforeEach(() => {

@@ -14,6 +14,6 @@ import { HttpClientModule } from '@angular/common/http';
         ChucknorrisPageComponent, JokeListComponent, JokeTileComponent
     ],
     exports: [ChucknorrisPageComponent],
-    providers: [ChucknorrisService],
+    providers: [ChucknorrisService]
 })
 export class ChucknorrisModule { }

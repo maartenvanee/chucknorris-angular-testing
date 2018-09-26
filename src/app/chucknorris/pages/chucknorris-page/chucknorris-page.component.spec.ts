@@ -9,8 +9,7 @@ describe('ChucknorrisPageComponent', () => {
     beforeEach(async(() => {
         TestBed.configureTestingModule({
             declarations: [ChucknorrisPageComponent]
-        })
-            .compileComponents();
+        }).compileComponents();
     }));
 
     beforeEach(() => {
